@@ -616,43 +616,216 @@ footer {
     section {
         padding: 6rem 2rem 3rem;
     }
-    
+
     .about {
         flex-direction: column;
         gap: 2rem;
     }
-    
+
     .timeline:before {
         left: 40px;
     }
-    
+
     .timeline-item {
         width: 100%;
         left: 0;
         padding-left: 70px;
         padding-right: 0;
     }
-    
+
     .timeline-item:nth-child(even) {
         left: 0;
     }
-    
+
     .timeline-item:before {
         left: 30px;
         right: auto;
     }
+
+    .popup {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .popup-flex {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .popup-flex img, .popup-flex video {
+        max-width: 100%;
+    }
+
+    .close-popup {
+        top: 15px;
+        right: 15px;
+        font-size: 1.5rem;
+    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     header {
         padding: 1rem;
     }
-    
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
     nav ul {
         display: none;
     }
-    
+
+    .theme-toggle {
+        font-size: 1.2rem;
+    }
+
     .hero h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .hero .subtitle {
+        font-size: 1.2rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem; 
+    }
+
+    .about {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .profile-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .education-card {
+        padding: 1.5rem;
+    }
+
+    .certificate-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .certificate-card {
+        height: auto;
+    }
+
+    .certificate-img {
+        height: 150px;
+    }
+
+    .certificate-info {
+        position: static;
+        padding: 1rem;
+    }
+
+    .certificate-description {
+        position: static;
+        transform: none;
+        opacity: 1;
+        padding: 1rem;
+    }
+
+    .certificate-card:hover .certificate-info {
+        transform: none;
+    }
+
+    .certificate-card:hover .certificate-description {
+        transform: none;
+    }
+
+    .timeline:before {
+        left: 20px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        left: 0;
+        padding-left: 50px;
+        padding-right: 0;
+    }
+
+    .timeline-item:before {
+        left: 10px;
+    }
+
+    .timeline-content {
+        padding: 1rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-img {
+        height: 150px;
+    }
+
+    .social-links-vertical {
+        gap: 0.5rem;
+    }
+
+    .social-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-icon img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .popup {
+        width: 90%;
+        padding: 1rem;
+        max-height: 90vh; 
+        overflow-y: auto; 
+    }
+
+    .popup-flex {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .popup-flex img, .popup-flex video {
+        max-width: 100%;
+    }
+
+    .close-popup {
+        top: 10px;
+        right: 10px;
+        font-size: 1.5rem;
+        background-color: var(--accent-color);
+        color: white;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+
+    .back-to-top {
+        bottom: 1rem;
+        right: 1rem;
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
     }
 }
