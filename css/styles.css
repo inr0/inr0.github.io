@@ -696,7 +696,7 @@ footer {
     .btn {
         width: 100%;
         text-align: center;
-        margin-bottom: 1rem; 
+        margin-bottom: 1rem;
     }
 
     .about {
@@ -731,18 +731,7 @@ footer {
     }
 
     .certificate-description {
-        position: static;
-        transform: none;
-        opacity: 1;
-        padding: 1rem;
-    }
-
-    .certificate-card:hover .certificate-info {
-        transform: none;
-    }
-
-    .certificate-card:hover .certificate-description {
-        transform: none;
+        display: none; 
     }
 
     .timeline:before {
@@ -789,8 +778,8 @@ footer {
     .popup {
         width: 90%;
         padding: 1rem;
-        max-height: 90vh; 
-        overflow-y: auto; 
+        max-height: 90vh;
+        overflow-y: auto;
     }
 
     .popup-flex {
