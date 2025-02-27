@@ -731,7 +731,7 @@ footer {
     }
 
     .certificate-description {
-        display: none; 
+        display: none;
     }
 
     .timeline:before {
@@ -746,6 +746,12 @@ footer {
     }
 
     .timeline-item:before {
+        left: 10px;
+        right: auto;
+        top: 20px;
+    }
+
+    .timeline-item:nth-child(even):before {
         left: 10px;
     }
 
