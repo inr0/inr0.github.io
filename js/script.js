@@ -82,7 +82,7 @@ const projectPopupInfo = document.getElementById("project-popup-info");
 
 projectCards.forEach((card, index) => {
     card.addEventListener("click", () => {
-        const videoSrc = `vid/video${index + 1}.mp4`; 
+        const videoSrc = `vid/video${index + 1}.webm`; 
         const info = card.querySelector(".project-info").innerHTML;
         projectPopupVideo.src = videoSrc;
         projectPopupInfo.innerHTML = info;
