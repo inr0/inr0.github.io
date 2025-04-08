@@ -14,6 +14,7 @@
                 <li><a href="#whoami">Who Am I</a></li>
                 <li><a href="#summary">Summary</a></li>
                 <li><a href="#education">Education</a></li>
+				<li><a href="#experience">Experience</a></li>
                 <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#courses">Courses</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -23,20 +24,20 @@
         <button class="theme-toggle" id="theme-toggle">🌙</button>
     </header>
     
-    <main>
-<section id="whoami" class="hero">
-    <div class="hero-content">
-        <h1><span class="accent">NADER ALHARBI</span></h1>
-        <p class="subtitle">
-            <span class="static-text">I'm</span>
-            <span id="dynamic-subtitle" class="subtitle-text">Penetration Tester</span>
-        </p>
-        <div class="hero-buttons">
-            <a href="#summary" class="btn">About me</a>
-            <a href="#connect" class="btn">Get In Touch</a>
-        </div>
-    </div>
-</section>
+	<main>
+		<section id="whoami" class="hero">
+			<div class="hero-content">
+				<h1><span class="accent">NADER ALHARBI</span></h1>
+				<p class="subtitle">
+					<span class="static-text">I'm</span>
+					<span id="dynamic-subtitle" class="subtitle-text">Penetration Tester</span>
+				</p>
+				<div class="hero-buttons">
+					<a href="#summary" class="btn">About me</a>
+					<a href="#connect" class="btn">Get In Touch</a>
+				</div>
+			</div>
+		</section>
         
         <section id="summary" class="container">
             <h2>Summary</h2>
@@ -58,6 +59,18 @@
                     
                     <p>University of Jeddah</p>
 					<div class="date">2021 - Present</div>
+                </div>
+            </div>
+        </section>
+		
+		<section id="experience" class="container">
+            <h2>Experience</h2>
+            <div class="education-card">
+                <div class="education-content">
+					<h3>Cybersecurity Content Specialist</h3>
+                    
+                    <p>Synapse</p>
+					<div class="date">2025 - Present</div>
                 </div>
             </div>
         </section>
@@ -131,8 +144,20 @@
                         <p>- Assessment Methodologies <br>- Host & Networking Auditing <br>- Host & Network Penetration Testing <br>- Web Application Penetration Testing</p>
                     </div>
                 </div>
+				<div class="certificate-card">
+                    <div class="certificate-img">
+                        <img src="img/cert6.png" alt="Certification 6">
+                    </div>
+                    <div class="certificate-info">
+                        <h3>Zephyr ProLab</h3>
+                        <p>Issued by HackTheBox</p>
+                    </div>
+                    <div class="certificate-description">
+						<h3>Key Topics and skills</h3>
+                        <p>- Active Directory <br>- Red Teaming <br>- Enumeration <br>- ACLs Abuse <br>- Lateral movement and crossing trust boundaries <br>- Pivoting <br>- SQL attacks</p>
+                    </div>
+                </div>
             </div>
-
         </section>
         
         <section id="courses" class="container">
@@ -205,44 +230,70 @@
                 </div>
             </div>
         </section>
-
         
-<section id="projects" class="container">
-    <h2>Projects</h2>
-    <p>Here are some of the projects I've worked on that showcase my skills and expertise. Click project to see demo video.</p>
-    <div class="projects-grid">
-        <div class="project-card">
-            <div class="project-img">
-                <img src="img/project1.png" alt="Google Chrome Password Stealer">
-            </div>
-            <div class="project-info">
-                <h3>Google Chrome Password Stealer</h3>
-                <p>This malware decrypts and steals passwords stored in Google Chrome, sending them to the attacker’s Command and Control (C2) server without detection from Windows Defender on Windows 10.</p>
-                <div class="project-tags">
-                    <span class="tag">Python</span>
-                    <span class="tag">Stealer</span>
-                    <span class="tag">Evasion</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <div class="project-img">
-                <img src="img/project2.png" alt="Subnet Scanner">
-            </div>
-            <div class="project-info">
-                <h3>Subnet Scanner</h3>
-                <p>This Python program identifies live hosts on a subnet, useful for penetration testers to locate active hosts.</p>
-                <div class="project-tags">
-                    <span class="tag">Python</span>
-                    <span class="tag">Enumeration</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-        
+		<section id="projects" class="container">
+			<h2>Projects</h2>
+			<p>Here are some of the projects I've worked on that showcase my skills and expertise. Click project to see demo video.</p>
+			<div class="projects-grid">
+				<div class="project-card">
+					<div class="project-img">
+						<img src="img/project1.png" alt="Google Chrome Password Stealer">
+					</div>
+					<div class="project-info">
+						<h3>Google Chrome Password Stealer</h3>
+						<p>This malware decrypts and steals passwords stored in Google Chrome, sending them to the attacker’s Command and Control (C2) server without detection from Windows Defender on Windows 10.</p>
+						<div class="project-tags">
+							<span class="tag">Python</span>
+							<span class="tag">Stealer</span>
+							<span class="tag">Evasion</span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="project-card">
+					<div class="project-img">
+						<img src="img/project2.png" alt="Subnet Scanner">
+					</div>
+					<div class="project-info">
+						<h3>Subnet Scanner</h3>
+						<p>This Python program identifies live hosts on a subnet, useful for penetration testers to locate active hosts.</p>
+						<div class="project-tags">
+							<span class="tag">Python</span>
+							<span class="tag">Enumeration</span>
+						</div>
+					</div>
+				</div>
+				<div class="project-card">
+					<div class="project-img">
+					<img src="img/project3.png" alt="Fake CAPTCHA Attack Simulation">
+					</div>
+					<div class="project-info">
+						<h3>Fake CAPTCHA Attack Simulation</h3>
+						<p>This demo replicates how threat actors use fake CAPTCHA pages to trick victims into executing malicious code. Designed to raise awareness, it highlights the importance of verifying website authenticity to prevent falling for such social engineering attacks.</p>
+						<a href="fakeCaptcha.html" class="btn">Try Demo</a>
+						<div class="project-tags">
+							<span class="tag">Awareness</span>
+							<span class="tag">Social Engineering</span>
+						</div>
+					</div>
+				</div>
+				<div class="project-card">
+					<div class="project-img">
+						<img src="img/project4.png" alt="TelegramC2">
+					</div>
+					<div class="project-info">
+						<h3>NRcTwo</h3>
+						<p>This is a IP-less C2 (Command And Control) That I have created that leverages Telegram for communication. This C2 has multiple functionalities, including:<br>- Gathering system information from the victim machine<br>- Executing commands on the victim machine<br>- Taking screenshots<br>- Retrieving public IP and location<br>- Persistence via startup apps</p>
+						<div class="project-tags">
+							<span class="tag">C2</span>
+							<span class="tag">Telegram Bot</span>
+							<span class="tag">Python</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
         <section id="connect" class="container">
             <h2>Connect</h2>
             <div class="connect-container">
