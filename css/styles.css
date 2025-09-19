@@ -56,6 +56,9 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+strong {
+  color: var(--accent-color-dark);
+}
 
 .logo {
     font-size: 1.8rem;
@@ -278,6 +281,15 @@ p {
 
 .education-content {
     text-align: center;
+
+}
+
+
+.education-content ul {
+  text-align: left;
+  display: inline-block;
+  padding-left: 20px;
+  margin: 0 auto;
 }
 
 .timeline {
@@ -823,4 +835,5 @@ footer {
         height: 40px;
         font-size: 1.2rem;
     }
+
 }
