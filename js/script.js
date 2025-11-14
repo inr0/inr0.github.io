@@ -23,7 +23,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-const subtitles = ["Penetration Tester", "Saudi", "Cybersecurity Student", "Ethical Hacker", "Red Teamer",  "Team Player", "Continuous Learner"];
+const subtitles = ["a Penetration Tester", "Saudi", "a Cybersecurity Student", "an Ethical Hacker", "a Red Teamer",  "a Team Player", "a Continuous Learner"];
 let currentIndex = 0;
 const dynamicSubtitle = document.getElementById("dynamic-subtitle");
 
