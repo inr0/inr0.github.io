@@ -291,6 +291,16 @@ p {
   padding-left: 20px;
   margin: 0 auto;
 }
+.education-content li {
+    text-align: left;
+    margin-left: 1.2rem;
+}
+
+.education-content .date {
+    text-align: center;
+    width: 100%;
+    margin-top: 0.5rem; 
+}
 
 .timeline {
     position: relative;
